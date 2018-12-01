@@ -53,6 +53,7 @@ def createBackupDirectory(inFolder, dateFolderPath):
 
 if __name__ == "__main__":
     try:
+        print "this is a test"
         inFolder = getSelectedFolder()
         archiveFolderPath = createArchiveFolder(inFolder)
         dateFolderPath = createDateFolder(archiveFolderPath)
